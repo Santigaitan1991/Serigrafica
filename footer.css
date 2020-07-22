@@ -114,4 +114,9 @@ footer .contenedor-icono:hover a {
 	}
 }
 
+footer { 
+	display: flex;
+	flex-wrap: wrap;
+}
+
 

@@ -112,13 +112,6 @@ footer .contenedor-icono:hover a {
 	to {
 		transform: rotate3d(0,1,0, 360deg);
 	}
-}
-@screen 	footer .primerpie {
-	text-aling: center;
-}
-@screen        footer .segundopie { 
-	text-aling: center;
-}
 
 
 

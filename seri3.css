@@ -145,19 +145,7 @@ img {
 
 
 
-@media screen and (max-width: 600px) {
-	.contenedor .caja {
-		width: 100%;
-		margin: 0 auto;
-	}
-}
 
-@media screen and (max-width: 992px) {
-	.materialbox-caption {
-		width: 100%;
-		margin: 0 auto;
-	}
-}
 
 
 

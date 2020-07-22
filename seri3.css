@@ -145,19 +145,7 @@ img {
 
 
 
-@media (max-width: 768px) {
-	.menu {
-		display: inline;
-		font-size: 10px;
-		float: left;
-	}
-}
 
-@media (max-width: 700px) {
-	div ul li{
-		margin: 0;
-	}
-}
 
 
 

@@ -113,10 +113,13 @@ footer .contenedor-icono:hover a {
 		transform: rotate3d(0,1,0, 360deg);
 	}
 }
-
-footer { 
-	display: flex;
-	flex-wrap: wrap;
+@media 	footer .primerpie {
+	text-aling: center;
 }
+@media footer .segundopie { 
+	text-aling: center;
+}
+
+
 
 

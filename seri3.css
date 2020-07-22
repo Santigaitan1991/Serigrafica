@@ -1,0 +1,187 @@
+body {
+	background: rgb(27, 27, 27);
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1000px;
+	width: 95%;
+	
+}
+/* aca habia un max-width de 1000px y el width era de 90% y quedaba lindo*/
+
+.primeraimagen {
+	position: relative;
+	left: 25%;
+	width: 50%;
+}
+
+.presentacion {
+	background-color: white;
+	padding: 1% 1% 1% 60%;
+	margin-right: 0cm;
+	border: solid;
+	border-color: rgb(46, 194, 211);
+	float: right;
+	
+}
+
+.menu {
+	text-decoration: none;
+	color: black;
+	font-family: Arial;
+}
+
+h1 {
+	position: relative;
+	font-family: "calibri";
+	color: white;
+	top: 1cm;
+	margin-left: 1cm;
+	font-size: 300%;
+}
+
+h3 {
+	position: relative;
+	color: yellow;
+	text-align: center;
+	margin-left: 1cm;
+	font-size: 200%;
+}
+
+
+
+
+.contenedor {
+	width: 100%;
+	/* aca habia un max-width de 1000px y el width era de 90% y quedaba lindo*/
+
+	overflow: hidden;
+	margin: auto;
+}
+
+ul {
+	position: relative;
+	width: 100%
+	margin: 60px 0;
+
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 10px 20px;
+	color: #083;
+	border: 1px solid #fff;
+	margin-right: 15px;
+	text-transform: capitalize;
+	border-radius: 10px;
+	margin-left: 40px;
+}
+
+
+ul li:hover, 
+.activo{
+	background: #fff;
+	color: #262626;
+	cursor: pointer;
+}
+
+.contenedor .fotos{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+
+
+
+/* de aca se manejan las imagenes */
+.contenedor .caja {
+	width: 25%;
+	height: 250px;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	overflow: hidden;
+	border-radius: 15px;
+}
+
+.contenedor .caja img {
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+	object-fit: cover;
+}
+
+img:hover {
+	/* PARA DARLE MOVIMIENTO A LA IMAGEN
+	transform: scale(1);
+	transition: all ease 1.5s;
+	*/
+	cursor: pointer;
+
+}
+
+.materialbox-caption {
+
+	/* PROBAR CON EL DE FALCON MASTER EL QUE ME GUSTABA CON EL DE BUSCAR
+	*/
+	
+	bottom: 550px;
+	right: 0;
+	width: 40%;
+	height: auto;
+	padding: 10px;
+	margin: auto;
+	background: #fff;
+	font-size: 20px;
+	color: #000;
+	line-height: 28px;
+	border-radius: 20px;
+
+}
+
+img {
+	border-radius: 20px;
+}
+
+@media screen and (max-width: 600px) {
+	.materialbox-caption {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.materialbox-caption {
+		width: 70%;
+	}
+}
+
+@media (max-width: 768px) {
+	.menu {
+		display: inline;
+		font-size: 10px;
+		float: left;
+	}
+}
+
+@media (max-width: 700px) {
+	div ul li{
+		margin: 0;
+	}
+}
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+

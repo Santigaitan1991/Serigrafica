@@ -1,0 +1,112 @@
+body {
+	background: rgb(27, 27, 27);
+	margin: 0 auto;
+	padding: 0;
+	max-width: 1000px;
+	width: 95%;
+	
+}
+.primeraimagen {
+	position: relative;
+	left: 25%;
+	width: 50%;
+}
+
+.presentacion {
+	background-color: white;
+	position: relative;
+	padding: 1% 1% 1% 60%;
+	border: solid;
+	border-color: rgb(46, 194, 211);
+	float: right;
+	clear: left;
+}
+
+.menu {
+	text-decoration: none;
+	color: black;
+	font-family: Arial;
+}
+
+h1 {
+	position: relative;
+	font-family: "calibri";
+	color: white;
+	top: 1cm;
+	margin-left: 1cm;
+	font-size: 300%;
+}
+
+h3 {
+	position: relative;
+	color: white;
+	margin-left: 1cm;
+	font-size: 200%;
+	text-align: center;
+}
+
+
+
+.uno {
+	border-width: 0.1em;
+	border-color: yellow;
+}
+
+.dos {
+	border-width: 0.1em;
+	border-color: rgb(38, 182, 198);
+
+}
+
+.tres {
+	border-width: 0.1em;
+	border-color: rgb(243, 0, 136);
+
+}
+
+.si1 {
+	color: yellow;
+}
+.si2 {
+	color: rgb(38, 182, 198);
+}
+.si3 {
+	color: rgb(243, 0, 136);
+}
+
+.nosotros {
+	color: white;
+	margin-left: 3cm;
+	margin-right: 3cm;
+	text-align: justify;
+	font-family: arial;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+	.materialbox-caption {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.materialbox-caption {
+		width: 70%;
+	}
+}
+
+
+
+
+
+

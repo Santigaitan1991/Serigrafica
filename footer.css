@@ -1,0 +1,125 @@
+h4 {
+	color: yellow;
+	font-size: 16px;
+	font-family: arial;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.uno {
+	border-width: 0.1em;
+	border-color: yellow;
+}
+
+.dos {
+	border-width: 0.1em;
+	border-color: rgb(38, 182, 198);
+
+}
+
+.tres {
+	border-width: 0.1em;
+	border-color: rgb(243, 0, 136);
+
+}
+
+#foters {
+	margin-top: 1cm;
+}
+
+
+.primerpie {
+	float: left;
+	margin-left: 2%;
+	text-anchor: 8em;
+
+	
+}
+
+.segundopie{
+	float: left;
+	margin-top: 4%;
+	margin-left: 15%;
+	margin-bottom: 1cm;
+}
+
+
+#pies {
+	color: blue;
+}
+
+.lospies {
+	color: white;
+	text-decoration: none;
+}
+
+.correo {
+	width: 20px;
+	margin-right: 8px;
+}
+
+.ubicacion {
+	width: 15px;
+	margin-right: 10px;
+}
+
+.telefono {
+	width: 15px;
+	margin-right: 12px;
+}
+
+
+footer .redes-sociales {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding: 20px;
+	flex-wrap: wrap;
+}
+
+footer .redes-sociales a {
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: #000;
+	color: #fff;
+	margin: 10px;
+	text-align: center;
+	border-radius: 100px;
+	transition: .3s ease all;
+}
+
+footer .redes-sociales .whatsapp {background: #00BB2D;}
+footer .redes-sociales .facebook {background: #3b5998;}
+footer .redes-sociales .instagram {background: #c13584;}
+
+footer .redes-sociales a {
+	font-size: 15px;
+	line-height: 30px;
+}
+
+footer .contenedor-icono:hover a {
+	animation: icono .5s ease;
+}
+
+@keyframes icono {
+	from {
+		transform: rotate3d(0,0,0,0);
+	}
+	to {
+		transform: rotate3d(0,1,0, 360deg);
+	}
+}
+
+
+@media (max-width: 700px) {
+	.foters {
+		float: left;
+		width: 60px;
+		size: 60px;
+	}
+}
+

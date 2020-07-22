@@ -98,8 +98,8 @@ ul li:hover,
 .contenedor .caja {
 	width: 25%;
 	height: 250px;
-	margin-bottom: 20px;
-	margin-right: 20px;
+	margin-bottom: 10px;
+	margin-right: 10px;
 	overflow: hidden;
 	border-radius: 15px;
 }
@@ -143,6 +143,33 @@ img {
 	border-radius: 20px;
 }
 
+@media (max-width: 768px) {
+	.menu {
+		display: inline;
+		font-size: 10px;
+		float: left;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.materialbox-caption {
+		width: 70%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.materialbox-caption {
+		width: 50%;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 700px) {
+	div ul li{
+		margin: 0;
+	}
+}
 
 
 

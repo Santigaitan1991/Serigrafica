@@ -115,11 +115,3 @@ footer .contenedor-icono:hover a {
 }
 
 
-@media (max-width: 700px) {
-	.foters {
-		float: left;
-		width: 60px;
-		size: 60px;
-	}
-}
-

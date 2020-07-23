@@ -125,8 +125,14 @@ footer .contenedor-icono:hover a {
 
 .in-flex div {
 	padding: 15px;
-	margin: 2px;
+	margin: 0.5px;
 }
+
+.bienvenidos h1 {
+	owerflow:hidden;
+	font-size: 8px;
+}
+
 
 
 

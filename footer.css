@@ -144,6 +144,15 @@ footer .contenedor-icono:hover a {
 }
 
 
+@media screen and (max-width: 768px) {
+	.menu {
+		display: inline;
+		font-size: 10px;
+		float: left;
+	}
+}
+
+
 
 
 

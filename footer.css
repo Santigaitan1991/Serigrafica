@@ -142,7 +142,7 @@ footer .contenedor-icono:hover a {
 	flex-direction: column;
 	}
 	
-	p {
+	p .nosotros {
 		color: white;
 	}
 }

@@ -143,6 +143,35 @@ img {
 	border-radius: 20px;
 }
 
+@media screen and (max-width: 600px) {
+	.materialbox-caption {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.materialbox-caption {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	div ul li{
+		margin: 0;
+	}
+}
+
+
+@media screen and (max-width: 576px) {
+
+	div .fotos {
+		margin: 0;
+		flex-direction: column;
+		width: 300%;
+		margin-left: 30px;
+	}
+}
+
 
 
 

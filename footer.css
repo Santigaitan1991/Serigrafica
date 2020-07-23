@@ -126,14 +126,14 @@ footer .contenedor-icono:hover a {
 
 .in-flex:first-child {
 	flex: 2;
-	margin: 20px;
+	margin: 2px;
 	margin-bottom: 0px;
 
 }
 
 .in-flex div {
 	padding: 25px;
-	margin: 20px;
+	margin: 2px;
 }
 
 

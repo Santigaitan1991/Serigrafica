@@ -171,14 +171,14 @@ img {
 		margin-left: 30px;
 	}
 	.materialbox-caption {
-		bottom: 450px;
+		bottom: 350px;
 		right: 0;
 		width: 100%;
 		height: auto;
-		padding: 10px;
+		padding: 5px;
 		margin: auto;
 		background: #fff;
-		font-size: 20px;
+		font-size: 16px;
 		color: #000;
 		line-height: 28px;
 		border-radius: 20px;

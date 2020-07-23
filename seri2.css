@@ -97,11 +97,21 @@ a {
 	.materialbox-caption {
 		width: 90%;
 	}
+	
+	.nosotros {
+		margin: 0 auto;
+		justify-content: center;
+	}
 }
 
 @media screen and (max-width: 992px) {
 	.materialbox-caption {
 		width: 70%;
+	}
+	
+	.nosotros {
+		margin: 0 auto;
+		justify-content: center;
 	}
 }
 

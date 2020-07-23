@@ -141,6 +141,10 @@ footer .contenedor-icono:hover a {
 	justify-content: center;
 	flex-direction: column;
 	}
+	
+	p {
+		color: white;
+	}
 }
 
 

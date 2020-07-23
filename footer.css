@@ -113,3 +113,30 @@ footer .contenedor-icono:hover a {
 		transform: rotate3d(0,1,0, 360deg);
 	}
 }
+
+.home {
+	flex-wrap: wrap;
+
+}
+
+.in-flex {
+	flex: 1;
+	min-width: 300px;
+}
+
+.in-flex:first-child {
+	flex: 2;
+	margin: 20px;
+	margin-bottom: 0px;
+
+}
+
+.in-flex div {
+	padding: 25px;
+	margin: 20px;
+}
+
+
+
+
+

@@ -95,7 +95,7 @@ a {
 
 @media screen and (max-width: 600px) {
 	.materialbox-caption {
-		width: 90%;
+		width: 100%;
 	}
 	
 	.nosotros {
@@ -106,7 +106,7 @@ a {
 
 @media screen and (max-width: 992px) {
 	.materialbox-caption {
-		width: 70%;
+		width: 100%;
 	}
 	
 	.nosotros {

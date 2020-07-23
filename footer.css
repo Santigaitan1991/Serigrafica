@@ -114,23 +114,33 @@ footer .contenedor-icono:hover a {
 	}
 }
 
-.home {
-	display: block;
+@media screen and (max-width: 576px) {
+	header{
+		flex-direction: column;
+	}
 
-}
+	div .pintura {
+		width: 300px;
+		overflow: hidden;
+		justify-content: center;
 
-.in-flex {
-	min-width: 300px;
-}
+	}
 
-.in-flex div {
-	padding: 15px;
-	margin: 0.5px;
-}
+	
+	footer{
+		flex-direction: column;
+		display: block;
+	}
 
-.bienvenidos h1 {
-	owerflow:hidden;
-	font-size: 8px;
+	div .primerpie {
+	justify-content: center;
+	flex-direction: column;
+	}
+
+	div .segundopie {
+	justify-content: center;
+	flex-direction: column;
+	}
 }
 
 

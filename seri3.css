@@ -13,15 +13,22 @@ body {
 	left: 25%;
 	width: 50%;
 }
-.presentacion {
-	background-color: white;
+a {
+	margin-right: 1cm;
+	
+}
+
+div .presentacion {
 	position: relative;
-	padding: 1% 1% 1% 60%;
+	background-color: white;
+	padding: 1% 1% 1% 1%;
 	border: solid;
 	border-color: rgb(46, 194, 211);
-	float: right;
-	clear: left;
+	text-align: center;
+	
+	
 }
+
 
 
 .menu {
@@ -162,26 +169,29 @@ img {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 583px) {
 
 	div .fotos {
 		margin: 0;
 		flex-direction: column;
 		width: 300%;
 		margin-left: 30px;
+		
 	}
+
 	.materialbox-caption {
-		bottom: 350px;
-		right: 0;
-		width: 100%;
-		height: auto;
-		padding: 5px;
-		margin: auto;
-		background: #fff;
-		font-size: 16px;
-		color: #000;
-		line-height: 28px;
-		border-radius: 20px;
+		bottom: 300px;
+		left: 5px;
+	
+	width: 100%;
+	height: auto;
+	padding: 6px;
+	margin: auto;
+	background: #fff;
+	font-size: 12px;
+	color: #000;
+	line-height: 10px;
+	border-radius: 20px;
 
 
 	}

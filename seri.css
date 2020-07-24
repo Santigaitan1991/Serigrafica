@@ -11,17 +11,20 @@ body {
 	left: 25%;
 	width: 50%;
 }
-
-.presentacion {
-	background-color: white;
-	position: relative;
-	padding: 1% 1% 1% 60%;
-	border: solid;
-	border-color: rgb(46, 194, 211);
-	float: right;
-	clear: left;
+a {
+	margin-right: 1cm;
+	
 }
 
+div .presentacion {
+	position: relative;
+	background-color: white;
+	padding: 1% 1% 1% 1%;
+	border: solid;
+	border-color: rgb(46, 194, 211);
+	text-align: center;
+	
+	
 .pintura {
 	background-image: url(./pintura.jpg);
 	position: relative;

@@ -180,12 +180,12 @@ img {
 	}
 
 	.materialbox-caption {
-		bottom: 300px;
+		bottom: 2500px;
 		left: 5px;
 	
 	width: 100%;
 	height: auto;
-	padding: 6px;
+	padding: 10px;
 	margin: auto;
 	background: #fff;
 	font-size: 12px;

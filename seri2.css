@@ -120,11 +120,11 @@ a {
 	}
 	
 	.nosotros {
-		margin: 0 auto;
+		margin: 5px;
 		justify-content: center;
 	}
 	
-	h1 {
+	.quienessomos {
 		justify-content: center;
 		font-size: 30px;
 		margin-bottom: 20px;

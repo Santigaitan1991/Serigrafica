@@ -119,16 +119,27 @@ a {
 		width: 100%;
 	}
 	
-	.nosotros {
-		margin: 5px;
+	.si1 {		
+		margin-left: 5px;
+		margin-right: 5px;
+		justify-content: center;
+	}
+	.si2 {
+		margin-left: 5px;
+		margin-right: 5px;
+		justify-content: center;
+	}
+	.si3 {
+		margin-left: 5px;
+		margin-right: 5px;
 		justify-content: center;
 	}
 	
 	.quienessomos {
 		justify-content: center;
 		font-size: 30px;
-		margin-bottom: 20px;
-		color: white;
+		margin-bottom: 200px;
+		color: yellow;
 	}
 }
 

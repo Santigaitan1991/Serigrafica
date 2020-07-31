@@ -120,26 +120,26 @@ a {
 	}
 	
 	.si1 {		
-		margin-left: 5px;
-		margin-right: 5px;
+		margin-left: 15px;
+		margin-right: 15px;
 		justify-content: center;
 	}
 	.si2 {
 		margin-top: 10px;
-		margin-left: 5px;
-		margin-right: 5px;
+		margin-left: 15px;
+		margin-right: 15px;
 		justify-content: center;
 	}
 	.si3 {
-		margin-left: 5px;
-		margin-right: 5px;
+		margin-left: 15px;
+		margin-right: 15px;
 		justify-content: center;
 	}
 	
 	.quienessomos {
 		justify-content: center;
 		font-size: 30px;
-		margin-bottom: 200px;
+		margin-bottom: 80px;
 		color: yellow;
 	}
 }
